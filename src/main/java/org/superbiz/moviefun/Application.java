@@ -29,7 +29,7 @@ public class Application {
         return new ServiceCredentials(vcapServices);
     }
 
-    /*@Bean
+    @Bean
     public BlobStore blobStore(
         ServiceCredentials serviceCredentials,
         @Value("${vcap.services.photo-storage.credentials.endpoint:#{null}}") String endpoint
@@ -46,5 +46,5 @@ public class Application {
         }
 
         return new S3Store(s3Client, photoStorageBucket);
-    }*/
+    }
 }

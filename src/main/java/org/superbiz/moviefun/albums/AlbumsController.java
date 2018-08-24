@@ -26,12 +26,12 @@ import static org.springframework.http.MediaType.IMAGE_JPEG_VALUE;
 public class AlbumsController {
 
     private final AlbumsBean albumsBean;
-    private final BlobStore blobStore = null;
+    private final BlobStore blobStore;
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    public AlbumsController(AlbumsBean albumsBean) {
+    public AlbumsController(AlbumsBean albumsBean, BlobStore blobStore) {
         this.albumsBean = albumsBean;
-        //this.blobStore = blobStore;
+        this.blobStore = blobStore;
     }
 
 
