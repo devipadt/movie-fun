@@ -11,9 +11,9 @@ public class AlbumFixtures {
 
     public List<Album> load() {
         return asList(
-            new Album("Massive Attack", "Mezzanine", 1998, 9),
-            new Album("Radiohead", "OK Computer", 1997, 8),
-            new Album("Radiohead", "Kid A", 2000, 9)
+            new Album("Massive Attack - 1", "Mezzanine", 1998, 9),
+            new Album("Radiohead - 1", "OK Computer", 1997, 8),
+            new Album("Radiohead - 1", "Kid A", 2000, 9)
         );
     }
 }

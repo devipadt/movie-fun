@@ -11,13 +11,13 @@ public class MovieFixtures {
 
     public List<Movie> load() {
         return asList(
-            new Movie("Wedding Crashers", "David Dobkin", "Comedy", 7, 2005),
-            new Movie("Starsky & Hutch", "Todd Phillips", "Action", 6, 2004),
-            new Movie("Shanghai Knights", "David Dobkin", "Action", 6, 2003),
-            new Movie("I-Spy", "Betty Thomas", "Adventure", 5, 2002),
-            new Movie("The Royal Tenenbaums", "Wes Anderson", "Comedy", 8, 2001),
-            new Movie("Zoolander", "Ben Stiller", "Comedy", 6, 2001),
-            new Movie("Shanghai Noon", "Tom Dey", "Comedy", 7, 2000)
+            new Movie("Wedding Crashers -1", "David Dobkin", "Comedy", 7, 2005),
+            new Movie("Starsky & Hutch -1", "Todd Phillips", "Action", 6, 2004),
+            new Movie("Shanghai Knights -1", "David Dobkin", "Action", 6, 2003),
+            new Movie("I-Spy -1", "Betty Thomas", "Adventure", 5, 2002),
+            new Movie("The Royal Tenenbaums -1", "Wes Anderson", "Comedy", 8, 2001),
+            new Movie("Zoolander -1", "Ben Stiller", "Comedy", 6, 2001),
+            new Movie("Shanghai Noon -1", "Tom Dey", "Comedy", 7, 2000)
         );
     }
 }
